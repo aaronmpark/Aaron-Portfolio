@@ -44,17 +44,16 @@ const About = () => {
           About Me.</h2>
       </motion.div>
 
-      <motion.p
+      <motion.div
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm a 3rd-year Computer Science student at the University of Virginia.
-        <br></br>
-        I am currently working towards a BSCS with a minor in Data Science.
-        <br></br>
-        This portfolio shows a short summary of my development journey!
-      </motion.p>
-
+        <ul className="list-disc list-inside">
+          <li>I'm a 3rd-year Computer Science student at the University of Virginia.</li>
+          <li>Currently working towards a BSCS with a minor in Data Science.</li>
+          <li>I'm a skilled developer that excels in building projects and team-oriented work.</li>
+        </ul>
+      </motion.div>
       <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />

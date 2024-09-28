@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 
 import { styles } from '../styles';
@@ -8,6 +8,9 @@ import { logo, menu, close } from '../assets';
 const Navbar = () => {
   const [active, setActive] = useState(' ');
   const [toggle, setToggle] = useState(false);
+
+  const resumeLink = "https://your-resume-link-here.com"; // Replace with your actual resume link
+
   return (
     <nav
       className={`
@@ -17,19 +20,30 @@ const Navbar = () => {
     >
       <div className="w-full flex justify-between
       items-center max-w-7xl mx-auto">
-        <Link
-          to="/"
-          className="flex items-center gap-2"
-          onClick={() => {
-            setActive("");
-            window.scrollTo(0, 0);
-          }}
-        >
-          <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
-          <p className="text-white text-[16px] font-bold cursor-pointer flex">
-            Aaron &nbsp;
-            <span className="sm:block hidden">Park</span></p>
-        </Link>
+        <div className="flex items-center gap-5">
+          <Link
+            to="/"
+            className="flex items-center gap-2"
+            onClick={() => {
+              setActive("");
+              window.scrollTo(0, 0);
+            }}
+          >
+            <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
+            <p className="text-white text-[16px] font-bold cursor-pointer flex">
+              Aaron &nbsp;
+              <span className="sm:block hidden">Park</span>
+            </p>
+          </Link>
+          <a
+            href={resumeLink}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-tertiary py-2 px-4 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary text-[14px]"
+          >
+            Resume
+          </a>
+        </div>
         <ul className="list-none hidden sm:flex flex-row gap-10">
           {navLinks.map((Link) => (
             <li
@@ -69,17 +83,25 @@ const Navbar = () => {
                   onClick={() => {
                     setToggle(!toggle);
                     setActive(Link.title)
-                  }
-                  }
+                  }}
                 >
                   <a href={`#${Link.id}`}>{Link.title}</a>
                 </li>
               ))}
+              <li>
+                <a
+                  href={resumeLink}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-white font-poppins font-medium cursor-pointer text-[16px]"
+                >
+                  Resume
+                </a>
+              </li>
             </ul>
           </div>
         </div>
       </div>
-
     </nav>
   )
 }

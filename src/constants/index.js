@@ -19,10 +19,12 @@ import {
   starbucks,
   tesla,
   shopify,
-  carrent,
-  jobit,
-  tripguide,
+  boardblueprint,
+  discordbot,
+  frostbane,
   threejs,
+  melodymapper,
+  renderrealm,
 } from "../assets";
 
 export const navLinks = [
@@ -31,12 +33,12 @@ export const navLinks = [
     title: "About",
   },
   {
-    id: "projects",
-    title: "Projects",
-  },
-  {
     id: "skills",
     title: "Skills"
+  },
+  {
+    id: "projects",
+    title: "Projects",
   },
   {
     id: "contact",
@@ -50,15 +52,15 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Game Developer",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Frontend Developer",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "AI/ML Developer",
     icon: creator,
   },
 ];
@@ -119,123 +121,127 @@ const technologies = [
 ];
 
 const experiences = [
-  {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+  {},
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Render Realm",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web-based platform that renders 3D models and animations. \
+      Incorporated features like OrbitControls for intuitive user navigation and interaction with 3D models.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "three.js",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "javascript",
         color: "pink-text-gradient",
-      },
+      }
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: renderrealm,
+    source_code_link: "https://github.com/aaronmpark/RenderRealm",
   },
   {
-    name: "Job IT",
+    name: "Board Blueprint",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Web-based platform designed to aggregate and display keyboard prices, specifications, and images from premier retailers. \
+      Implemented a web-scraping program with Python to dynamically parse data from keyboard sites into structued JSON files.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "python",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "typescript",
         color: "pink-text-gradient",
       },
+      {
+        name: "json",
+        color: "blue-text-gradient",
+      }, {
+        name: "WebScraping",
+        color: "green-text-gradient",
+      },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: boardblueprint,
+    source_code_link: "https://github.com/aaronmpark/BoardBlueprint",
   },
   {
-    name: "Trip Guide",
+    name: "Melody Mapper",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Web-based application utilizing Flask and Spotify API to generate playlists based on tempo and user history. \
+      Integrated Spotify OAuth authentication to facilitate secure user logins. \
+      ",
     tags: [
       {
-        name: "nextjs",
+        name: "flask",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "SpotifyAPI",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "python",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: melodymapper,
+    source_code_link: "https://github.com/aaronmpark/MelodyMapper",
+  },
+  {
+    name: "Discord Bot",
+    description:
+      "Multifaceted Discord Bot that can run autonomously. \
+      Some features include pulling League of Legends data, welcome new server users, relaying bot latency, \
+      displaying custom Embeds, and etc.",
+    tags: [
+      {
+        name: "python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "DiscordAPI",
+        color: "green-text-gradient",
+      },
+      {
+        name: "DataScraping",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: discordbot,
+    source_code_link: "https://github.com/aaronmpark/DiscordBot",
+  },
+  {
+    name: "Frostbane",
+    description:
+      "3D horror game developed with a team of 5 developers. Vivid in-game experience with an immersive environment.",
+    tags: [
+      {
+        name: "godot",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "GDScript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "team-oriented",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: frostbane,
+    source_code_link: "https://github.com/UVASGD/spring-2024-frostbane",
   },
 ];
 

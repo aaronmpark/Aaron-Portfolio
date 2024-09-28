@@ -26,9 +26,11 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import boardblueprint from "./boardblueprint.jpg";
+import discordbot from "./discordbot.png";
+import frostbane from "./frostbane.jpg";
+import melodymapper from "./melodymapper.png";
+import renderrealm from "./renderrealm.png";
 
 export {
   logo,
@@ -56,7 +58,9 @@ export {
   shopify,
   starbucks,
   tesla,
-  carrent,
-  jobit,
-  tripguide,
+  boardblueprint,
+  discordbot,
+  frostbane,
+  melodymapper,
+  renderrealm,
 };
