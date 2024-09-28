@@ -32,6 +32,15 @@ import frostbane from "./frostbane.jpg";
 import melodymapper from "./melodymapper.png";
 import renderrealm from "./renderrealm.png";
 
+import python from "./tech/python.png";
+import c from "./tech/c.png";
+import flask from "./tech/flask.png";
+import godot from "./tech/godot.png";
+import java from "./tech/java.png";
+import tensorflow from "./tech/tensorflow.png";
+import unity from "./tech/unity.png";
+import pytorch from "./tech/pytorch.png";
+
 export {
   logo,
   backend,
@@ -63,4 +72,12 @@ export {
   frostbane,
   melodymapper,
   renderrealm,
+  c,
+  flask,
+  godot,
+  java,
+  python,
+  pytorch,
+  tensorflow,
+  unity,
 };

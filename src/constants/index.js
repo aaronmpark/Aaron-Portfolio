@@ -25,6 +25,14 @@ import {
   threejs,
   melodymapper,
   renderrealm,
+  python,
+  c,
+  flask,
+  godot,
+  java,
+  pytorch,
+  tensorflow,
+  unity,
 } from "../assets";
 
 export const navLinks = [
@@ -67,6 +75,22 @@ const services = [
 
 const technologies = [
   {
+    name: "Python",
+    icon: python,
+  },
+  {
+    name: "Java",
+    icon: java,
+  },
+  {
+    name: "JavaScript",
+    icon: javascript,
+  },
+  {
+    name: "React JS",
+    icon: reactjs,
+  },
+  {
     name: "HTML 5",
     icon: html,
   },
@@ -75,20 +99,8 @@ const technologies = [
     icon: css,
   },
   {
-    name: "JavaScript",
-    icon: javascript,
-  },
-  {
     name: "TypeScript",
     icon: typescript,
-  },
-  {
-    name: "React JS",
-    icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
   },
   {
     name: "Tailwind CSS",
@@ -99,24 +111,32 @@ const technologies = [
     icon: nodejs,
   },
   {
-    name: "MongoDB",
-    icon: mongodb,
+    name: "TensorFlow",
+    icon: tensorflow,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "PyTorch",
+    icon: pytorch,
   },
   {
     name: "git",
     icon: git,
   },
   {
-    name: "figma",
-    icon: figma,
+    name: "Godot",
+    icon: godot,
   },
   {
-    name: "docker",
-    icon: docker,
+    name: "Unity",
+    icon: unity,
+  },
+  {
+    name: "C++",
+    icon: c,
+  },
+  {
+    name: "Flask",
+    icon: flask,
   },
 ];
 
