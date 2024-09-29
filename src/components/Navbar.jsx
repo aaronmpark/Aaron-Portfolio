@@ -4,12 +4,11 @@ import { Link } from 'react-router-dom'
 import { styles } from '../styles';
 import { navLinks } from '../constants';
 import { logo, menu, close } from '../assets';
+import resumePDF from '/AaronPark_Resume2024.pdf';
 
 const Navbar = () => {
   const [active, setActive] = useState(' ');
   const [toggle, setToggle] = useState(false);
-
-  const resumeLink = "https://your-resume-link-here.com"; // Replace with your actual resume link
 
   return (
     <nav
@@ -36,7 +35,7 @@ const Navbar = () => {
             </p>
           </Link>
           <a
-            href={resumeLink}
+            href={resumePDF}
             target="_blank"
             rel="noopener noreferrer"
             className="bg-tertiary py-2 px-4 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary text-[14px]"
@@ -90,7 +89,7 @@ const Navbar = () => {
               ))}
               <li>
                 <a
-                  href={resumeLink}
+                  href={resumePDF}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-white font-poppins font-medium cursor-pointer text-[16px]"
