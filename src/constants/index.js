@@ -33,6 +33,8 @@ import {
   pytorch,
   tensorflow,
   unity,
+  acne,
+  aws
 } from "../assets";
 
 export const navLinks = [
@@ -138,6 +140,10 @@ const technologies = [
     name: "Flask",
     icon: flask,
   },
+  {
+    name: "AWS",
+    icon: aws,
+  }
 ];
 
 const experiences = [
@@ -152,15 +158,15 @@ const projects = [
       Incorporated features like OrbitControls for intuitive user navigation and interaction with 3D models.",
     tags: [
       {
-        name: "react",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "three.js",
+        name: "Three.js",
         color: "green-text-gradient",
       },
       {
-        name: "javascript",
+        name: "Javascript",
         color: "pink-text-gradient",
       }
     ],
@@ -171,18 +177,18 @@ const projects = [
     name: "Board Blueprint",
     description:
       "Web-based platform designed to aggregate and display keyboard prices, specifications, and images from premier retailers. \
-      Implemented a web-scraping program with Python to dynamically parse data from keyboard sites into structued JSON files.",
+      Implemented a web-scraping program with Python to dynamically parse data from keyboard sites into structured JSON files.",
     tags: [
       {
-        name: "react",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "python",
+        name: "Python",
         color: "green-text-gradient",
       },
       {
-        name: "typescript",
+        name: "Typescript",
         color: "pink-text-gradient",
       },
       {
@@ -204,7 +210,7 @@ const projects = [
       ",
     tags: [
       {
-        name: "flask",
+        name: "Flask",
         color: "blue-text-gradient",
       },
       {
@@ -212,7 +218,7 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "python",
+        name: "Python",
         color: "pink-text-gradient",
       },
     ],
@@ -227,7 +233,7 @@ const projects = [
       displaying custom Embeds, and etc.",
     tags: [
       {
-        name: "python",
+        name: "Python",
         color: "blue-text-gradient",
       },
       {
@@ -248,7 +254,7 @@ const projects = [
       "3D horror game developed with a team of 5 developers. Vivid in-game experience with an immersive environment.",
     tags: [
       {
-        name: "godot",
+        name: "Godot",
         color: "blue-text-gradient",
       },
       {
@@ -262,6 +268,46 @@ const projects = [
     ],
     image: frostbane,
     source_code_link: "https://github.com/UVASGD/spring-2024-frostbane",
+  },
+  {
+    name: "Acne Product Recommender",
+    description:
+      "Mobile application that detects types of acne on the user’s face and provides them \
+      with skincare products aligning with their results. \
+      Created an acne recognition model utilizing YOLO11 and NumPy to produce confidence intervals with an average 90% accuracy. \
+      ",
+    tags: [
+      {
+        name: "React-Native",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "OpenAI",
+        color: "green-text-gradient",
+      },
+      {
+        name: "PostgreSQL",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "YOLO11",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "NumPy",
+        color: "green-text-gradient",
+      },
+      {
+        name: "AWS",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Typescript",
+        color: "green-text-gradient",
+      },
+    ],
+    image: acne,
+    source_code_link: "https://github.com/ToxicToxins/hackathon",
   },
 ];
 

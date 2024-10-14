@@ -31,6 +31,7 @@ import discordbot from "./discordbot.png";
 import frostbane from "./frostbane.jpg";
 import melodymapper from "./melodymapper.png";
 import renderrealm from "./renderrealm.png";
+import acne from './acne.jpg';
 
 import python from "./tech/python.png";
 import c from "./tech/c.png";
@@ -41,6 +42,7 @@ import tensorflow from "./tech/tensorflow.png";
 import unity from "./tech/unity.png";
 import pytorch from "./tech/pytorch.png";
 
+import aws from "./tech/aws.jpg";
 export {
   logo,
   backend,
@@ -80,4 +82,6 @@ export {
   pytorch,
   tensorflow,
   unity,
+  acne,
+  aws,
 };
