@@ -43,6 +43,8 @@ import unity from "./tech/unity.png";
 import pytorch from "./tech/pytorch.png";
 
 import aws from "./tech/aws.jpg";
+import umee from "./company/umee.png";
+
 export {
   logo,
   backend,
@@ -84,4 +86,5 @@ export {
   unity,
   acne,
   aws,
+  umee,
 };

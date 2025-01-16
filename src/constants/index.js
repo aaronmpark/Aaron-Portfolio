@@ -34,13 +34,18 @@ import {
   tensorflow,
   unity,
   acne,
-  aws
+  aws,
+  umee,
 } from "../assets";
 
 export const navLinks = [
   {
     id: "about",
     title: "About",
+  },
+  {
+    id: "work",
+    title: "Work",
   },
   {
     id: "skills",
@@ -147,7 +152,20 @@ const technologies = [
 ];
 
 const experiences = [
-  {},
+  {
+    title: "Backend Developer Intern",
+    company_name: "Umee",
+    icon: umee,
+    iconBg: "#383E56",
+    date: "Oct 2024 - Jan 2025",
+    points: [
+
+      "Developed in an agile start-up environment, implementing tools like AWS AppSync for GraphQL APIs with real-time DynamoDB processing",
+      "Integrated AWS Cognito authentication system using Amplify CLI, ensuring scalable and secure user management.",
+      "Hands-on experience with various AWS services including EC2 for computing resources and S3 buckets for object storage",
+      "Developed server-side logic with NoSQL databases and automated pipelines to enhance a Flutter application's functionality",
+    ],
+  },
 ];
 
 const projects = [
