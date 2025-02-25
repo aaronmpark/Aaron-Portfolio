@@ -153,7 +153,7 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Backend Developer Intern",
+    title: "Backend Developer",
     company_name: "Umee",
     icon: umee,
     iconBg: "#383E56",
