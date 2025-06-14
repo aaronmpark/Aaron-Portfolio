@@ -37,6 +37,9 @@ import {
   aws,
   umee,
   nreca,
+  book,
+  whisper,
+  kubernetes
 } from "../assets";
 
 export const navLinks = [
@@ -149,6 +152,14 @@ const technologies = [
   {
     name: "AWS",
     icon: aws,
+  },
+  {
+    name: "Kubernetes",
+    icon: kubernetes,
+  },
+  {
+    name: "Docker",
+    icon: docker,
   }
 ];
 
@@ -341,6 +352,79 @@ const projects = [
     ],
     image: acne,
     source_code_link: "https://github.com/ToxicToxins/hackathon",
+  },
+  {
+    name: "Book Cataloging Website",
+    description:
+      "Web application built with Django and PostgreSQL that allows users to catalog their books. \
+      Built in a team-based environment within a university course. \
+      Utilized Heroku for deployment and AWS S3 for file storage. \
+      Tasked with the DevOps Engineering role, implementing CI/CD pipelines and managing the deployment process. \
+      ",
+    tags: [
+      {
+        name: "Django",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Heroku",
+        color: "green-text-gradient",
+      },
+      {
+        name: "PostgreSQL",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "DevOps",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Agile",
+        color: "green-text-gradient",
+      },
+      {
+        name: "AWS",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Python",
+        color: "green-text-gradient",
+      },
+    ],
+    image: book,
+    source_code_link: "https://github.com/aaronmpark/Book-Cataloging",
+  },
+  {
+    name: "Speech Sentiment Analysis",
+    description:
+      "Python application that analyzes the sentiment of speech using OpenAI's Whisper API. \
+      Pre-trained BERT models, fine-tuned on the GoEmotions dataset. \
+      Constructed as a final project for a Natural Language Processing course. \
+      ",
+    tags: [
+      {
+        name: "Python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Machine Learning",
+        color: "green-text-gradient",
+      },
+      {
+        name: "OpenAI",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Pre-training",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "HuggingFace",
+        color: "green-text-gradient",
+      },
+    ],
+    image: whisper,
+    source_code_link: "https://github.com/jeremyky/speech-sentiment-analysis",
   },
 ];
 
