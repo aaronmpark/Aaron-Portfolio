@@ -36,6 +36,7 @@ import {
   acne,
   aws,
   umee,
+  nreca,
 } from "../assets";
 
 export const navLinks = [
@@ -75,7 +76,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "AI/ML Developer",
+    title: "Cloud Engineer",
     icon: creator,
   },
 ];
@@ -152,6 +153,20 @@ const technologies = [
 ];
 
 const experiences = [
+  {
+    title: "Cloud Platform Engineer Intern",
+    company_name: "NRECA",
+    icon: nreca,
+    iconBg: "#383E56",
+    date: "May 2025 - Present",
+    points: [
+
+      "Developed and deployed AWS Lambda functions using Python to automate and optimize critical production pipelines, effectively reducing costs and scalability within cloud operations. ",
+      "Tested and containerized microservices with Docker, streamlining development workflows and enabling seamless employment to Kubernetes clusters. ",
+      "Utilized AWS SAM for infrastructure-as-code deployments, speeding up the release cycle of serverless deployments.",
+      "Migrated API Gateway CloudFormation templates to AWS CDK, improving maintainability and better integration with automated CI/CD pipelines.",
+    ],
+  },
   {
     title: "Backend Developer",
     company_name: "Umee",

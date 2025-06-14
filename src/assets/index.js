@@ -44,7 +44,7 @@ import pytorch from "./tech/pytorch.png";
 
 import aws from "./tech/aws.jpg";
 import umee from "./company/umee.png";
-
+import nreca from "./company/nreca.png";
 export {
   logo,
   backend,
@@ -87,4 +87,5 @@ export {
   acne,
   aws,
   umee,
+  nreca,
 };
