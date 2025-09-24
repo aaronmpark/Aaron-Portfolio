@@ -346,7 +346,6 @@ const projects = [
     description:
       "Mobile application that detects types of acne on the user’s face and provides them \
       with skincare products aligning with their results. \
-      Created an acne recognition model utilizing YOLO11 and NumPy to produce confidence intervals with an average 90% accuracy. \
       ",
     tags: [
       {
