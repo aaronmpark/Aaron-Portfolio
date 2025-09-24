@@ -39,7 +39,11 @@ import {
   nreca,
   book,
   whisper,
-  kubernetes
+  kubernetes,
+  uva,
+  csharp,
+  argo,
+  jpdb,
 } from "../assets";
 
 export const navLinks = [
@@ -160,22 +164,46 @@ const technologies = [
   {
     name: "Docker",
     icon: docker,
-  }
+  },
+  { name: "MongoDB",
+    icon: mongodb,
+  },
+  {
+    name: "ArgoCD",
+    icon: argo,
+  },
+  {
+    name: "C#",
+    icon: csharp,
+  },
 ];
 
 const experiences = [
+  {
+    title: "Transformational Student Intern",
+    company_name: "University of Virginia",
+    icon: uva,
+    iconBg: "#383E56",
+    date: "Aug 2025 - Present",
+    points: [
+
+      "Developed and deployed AWS Lambda functions in JavaScript to support workflows around the library’s system and AWS environment.",
+      "Pioneered the library’s first-ever internship role, serving as a bridge between the library staff and technical teams to shape a sustainable, long-term model. "
+    ],
+  },
   {
     title: "Cloud Platform Engineer Intern",
     company_name: "NRECA",
     icon: nreca,
     iconBg: "#383E56",
-    date: "May 2025 - Present",
+    date: "May 2025 - Aug 2025",
     points: [
 
-      "Developed and deployed AWS Lambda functions using Python to automate and optimize critical production pipelines, effectively reducing costs and scalability within cloud operations. ",
-      "Tested and containerized microservices with Docker, streamlining development workflows and enabling seamless employment to Kubernetes clusters. ",
-      "Utilized AWS SAM for infrastructure-as-code deployments, speeding up the release cycle of serverless deployments.",
-      "Migrated API Gateway CloudFormation templates to AWS CDK, improving maintainability and better integration with automated CI/CD pipelines.",
+      "Developed and deployed AWS Lambda functions in Python that retrieved and processed encrypted data from AWS SSM to detect misconfigurations, generating actionable alerts for downstream teams. ",
+      "Built and tested reusable applications integrated into core infrastructure, with a focus on reusability and enabling other teams to deliver products faster.   ",
+      "Utilized AWS SAM for IaC deployments, allowing consistent and repeatable setups that other teams can easily adopt. ",
+      "Transitioned API Gateway CloudFormation templates to AWS CDK, reducing technical debt and improving onboarding speed for teams managing APIs. ",
+      "Led cross-team collaboration and utilized existing resources to identify and resolve blockers early, conduct unit testing, and implement a foundational solution for a large-scale automation project projected to streamline developer workflows company-wide."
     ],
   },
   {
@@ -425,6 +453,45 @@ const projects = [
     ],
     image: whisper,
     source_code_link: "https://github.com/jeremyky/speech-sentiment-analysis",
+  },
+  {
+    name: "JPDB to ANKI Converter",
+    description:
+      "Full stack project that utilizes a FastAPI backend and React frontend to convert \
+      Japanese Dictionary (JPDB) export files into ANKI flashcard decks. \
+      ",
+    tags: [
+      {
+        name: "Python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "React",
+        color: "green-text-gradient",
+      },
+      {
+        name: "JavaScript",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "HTML",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "FastAPI",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Full Stack",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: jpdb,
+    source_code_link: "https://github.com/aaronmpark/JPDB-to-ANKI",
   },
 ];
 

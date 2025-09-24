@@ -45,9 +45,13 @@ import pytorch from "./tech/pytorch.png";
 import aws from "./tech/aws.jpg";
 import umee from "./company/umee.png";
 import nreca from "./company/nreca.png";
+import uva from "./company/uva.png";    
 import book from "./book.png";
 import whisper from "./whisper.png";
 import kubernetes from "./tech/kubernetes.png";
+import argo from "./tech/argo.png";
+import csharp from "./tech/c_sharp.png";
+import jpdb from "./jpdb.png";
 export {
   logo,
   backend,
@@ -93,5 +97,9 @@ export {
   nreca,
   book,
   whisper,
-  kubernetes
+  kubernetes,
+  uva,
+  argo,
+  csharp,
+  jpdb,
 };
