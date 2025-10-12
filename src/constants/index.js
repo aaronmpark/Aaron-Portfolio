@@ -44,6 +44,7 @@ import {
   csharp,
   argo,
   jpdb,
+  goldenMS,
 } from "../assets";
 
 export const navLinks = [
@@ -165,7 +166,8 @@ const technologies = [
     name: "Docker",
     icon: docker,
   },
-  { name: "MongoDB",
+  {
+    name: "MongoDB",
     icon: mongodb,
   },
   {
@@ -491,6 +493,38 @@ const projects = [
     ],
     image: jpdb,
     source_code_link: "https://github.com/aaronmpark/JPDB-to-ANKI",
+  },
+  {
+    name: "Golden MS LLC Interior Design Portfolio",
+    description:
+      "Fully constructed the website for Golden MS LLC, an interior design company. \
+      Designed a modern, sleek website to showcase the company's portfolio and services. \
+      Implemented responsive design principles to ensure optimal viewing across various devices. \
+      ",
+    tags: [
+      {
+        name: "Vue",
+        color: "green-text-gradient",
+      },
+      {
+        name: "JavaScript",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "HTML",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Cloudflare",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: goldenMS,
+    source_code_link: "https://github.com/aaronmpark/interior-design-portfolio",
   },
 ];
 
