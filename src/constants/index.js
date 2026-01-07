@@ -186,7 +186,7 @@ const experiences = [
     company_name: "University of Virginia",
     icon: uva,
     iconBg: "#383E56",
-    date: "Aug 2025 - Present",
+    date: "Aug 2025 - Dec 2025",
     points: [
 
       "Developed and deployed AWS Lambda functions in JavaScript to support workflows around the library’s system and AWS environment.",
