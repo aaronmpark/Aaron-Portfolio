@@ -49,8 +49,8 @@ const About = () => {
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
         <ul className="list-disc list-inside">
-          <li>I'm a 4th-year Computer Science student at the University of Virginia.</li>
-          <li>Currently working towards a BSCS with a minor in Data Science.</li>
+          <li>I'm a Graduate of the University of Virginia.</li>
+          <li>I hold a Bachelors of Science in Computer Science with a minor in Data Science.</li>
           <li>I'm a skilled developer that excels in building projects and team-oriented work.</li>
         </ul>
       </motion.div>
