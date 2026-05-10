@@ -190,7 +190,8 @@ const experiences = [
     points: [
 
       "Developed and deployed AWS Lambda functions in JavaScript to support workflows around the library’s system and AWS environment.",
-      "Pioneered the library’s first-ever internship role, serving as a bridge between the library staff and technical teams to shape a sustainable, long-term model. "
+      "Selected by management for strong technical and interpersonal skills to serve as the primary POC between library staff and technical teams, bridging communication gaps and shaping a sustainable long-term internship model.",
+      "Engaged in mentorship and project coordination with the department head manager to align priorities through Jira projects. "
     ],
   },
   {
@@ -202,10 +203,9 @@ const experiences = [
     points: [
 
       "Developed and deployed AWS Lambda functions in Python that retrieved and processed encrypted data from AWS SSM to detect misconfigurations, generating actionable alerts for downstream teams. ",
-      "Built and tested reusable applications integrated into core infrastructure, with a focus on reusability and enabling other teams to deliver products faster.   ",
-      "Utilized AWS SAM for IaC deployments, allowing consistent and repeatable setups that other teams can easily adopt. ",
+      "Experienced utilizing, building, and testing reusable applications, allowing feasible adoption by teams and quicker product delivery (e.g., AWS SAM for IaC deployments).",
       "Transitioned API Gateway CloudFormation templates to AWS CDK, reducing technical debt and improving onboarding speed for teams managing APIs. ",
-      "Led cross-team collaboration and utilized existing resources to identify and resolve blockers early, conduct unit testing, and implement a foundational solution for a large-scale automation project projected to streamline developer workflows company-wide."
+      "Demonstrated leadership skills by leading cross-team collaboration and utilized existing resources to identify and resolve blockers early, conduct unit testing, and implement a foundational solution for a large-scale automation project projected to streamline developer workflows company-wide. "
     ],
   },
   {
